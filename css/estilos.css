@@ -45,6 +45,9 @@ main div {
     padding: 0.5rem;
     margin: 0.5rem;
 }
+.botones{
+    padding: 0 auto;
+}
 .principal p{
     margin: 1rem;
 }
@@ -93,3 +96,10 @@ form button{
 }
 
 /****************** TESTIMONIOS ******************/
+.testimonio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+}
