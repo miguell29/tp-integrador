@@ -52,3 +52,44 @@ main div {
     width: 80%;
     margin: 0 auto;
 }
+
+
+
+
+/***************** CONTACTO ********************/
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem;
+}
+p{
+    font-size: 1rem;
+    margin: 1rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+form input, textarea{
+    width: 50%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: solid black 2px;
+    border-radius: 3px;
+}
+
+form button{
+    width: 50%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: solid black 2px;
+    border-radius: 3px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+/****************** TESTIMONIOS ******************/
